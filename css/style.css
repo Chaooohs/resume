@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/gilroy-bold.eot");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/gilroy-medium.eot");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Gilroy", sans-serif;
+
+  --white: #fff;
+  --black: #070707;
+  --gray: #828282;
+  --back-white: #fff;
+  --back-gray: #f6f6f6;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  border: 1px solid #828282;
+  margin: 3rem 0 4rem;
+}
+h1,
+h2,
+p {
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+
+/* .main {
+  max-width: 1445px;
+  margin: 0 auto;
+} */
+.container {
+  max-width: 94.3rem;
+  box-sizing: border-box;
+  padding: 12rem 0 10rem 0;
+  margin: 0 auto;
+}
+.wrapper {
+  box-sizing: border-box;
+  padding: 0 3rem;
+}
+.font-item {
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-align: center;
+  color: var(--black);
+}
+.font-title {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--black);
+}
+
+/* #region Header */
+
+.header {
+  background: var(--back-white);
+}
+.header__container {
+  box-sizing: border-box;
+  padding: 3.3rem 0 10.4rem;
+}
+
+/* nav */
+
+.header__nav {
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__item {
+}
+.nav__link {
+  color: var(--gray);
+}
+.nav__link:hover {
+  color: var(--black);
+}
+
+/* content */
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header__title {
+  font-size: 4.7rem;
+  line-height: 5.9rem;
+}
+.header__item {
+  padding-bottom: 0.9rem;
+}
+.language {
+}
+
+.header__image {
+  margin-top: 5rem;
+}
+
+/* #endregion */
+
+/* #region About me */
+
+.about {
+  background: var(--back-gray);
+}
+.about__title {
+  margin-bottom: 1.7rem;
+}
+.about__item {
+  margin-top: 5rem;
+}
+
+/* #endregion */
+
+/* #region Skills */
+
+.skills {
+  background: var(--back-white);
+}
+.skills__title {
+}
+.skills-item {
+  margin-top: 7rem;
+}
+.skills__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8.3rem;
+}
+.skills__card {
+  width: 16.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills__card-img {
+  width: 8.9rem;
+}
+.skills__card-figma {
+  width: 5.8rem;
+}
+.skills__card-item {
+  font-style: bold;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+  margin-top: 2.4rem;
+  color: #828282;
+}
+.skills__stars {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+/* #endregion */
+
+/* #region Portfolio */
+
+.portfolio {
+  background: var(--back-gray);
+}
+.portfolio__title {
+  margin-bottom: 4.7rem;
+}
+.portfolio__image {
+  margin-bottom: 4.4rem;
+}
+.portfolio__link {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  margin-bottom: 10rem;
+}
+
+/* #endregion */
+
+/* #region Contacts */
