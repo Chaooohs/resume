@@ -5,12 +5,44 @@
     padding: 65px 0 83px;
   }
   hr,
-  .nav,
+  .nav__list,
   .radio__form {
     display: none;
   }
   .nav__btn {
     display: block;
+  }
+  .nav.active
+  .nav__list {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: flex-start;
+    gap: 68px;
+
+    background: #fff;
+    box-sizing: border-box;
+    padding: 66px 0 0 26px;
+
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    color: #828282;
+  }
+  .radio__form.active, .radio__label {
+    display: inline-block;
+    position: fixed;
+    right: 28px;
+    bottom: 58px;
+    font-size: 34px;
+    line-height: 42px;
+    transform: rotate(0);
   }
   .header__content {
     flex-direction: column;
