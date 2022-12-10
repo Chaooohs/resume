@@ -20,6 +20,9 @@ html {
   --back-white: #f6f6f6;
   --back-gray: #f6f6f6;
 }
+body.no-scroll {
+  overflow: hidden;
+}
 ul {
   list-style-type: none;
   padding: 0;
