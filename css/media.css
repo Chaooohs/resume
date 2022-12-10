@@ -1,0 +1,22 @@
+@media (max-width: 992px) {
+
+  .header__container {
+    padding: 65px 0 83px;
+  }
+  hr,
+  .radio__form,
+  .header__nav {
+    display: none;
+  }
+  .nav__btn {
+    display: block;
+  }
+  .header__content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header__item {
+    text-align: start;
+    padding: 23px 0 0 0;
+  }
+}
