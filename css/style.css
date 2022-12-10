@@ -143,7 +143,7 @@ img {
   box-sizing: border-box;
   padding-top: 10px;
 
-  writing-mode: vertical-rl;
+  writing-mode: vertical-rl;    /*! устанавливает вертикальное положение текста или блока*/
   transform: rotate(180deg);
 }
 input {
