@@ -58,6 +58,12 @@
     text-align: start;
     padding: 23px 0 0 0;
   }
+
+  /* footer */
+
+  .footer__btn {
+    padding: 12px 97px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -116,16 +122,14 @@
     line-height: 22px;
     margin-top: 48px;
   }
-  .footer__btn {
-    padding: 12px 97px;
-  }
 }
 
-@media (max-width: 374px) {
+@media (max-width: 375px) {
   .about__content {
     width: 228px;
   }
   .footer__btn {
+    width: 100%;
     padding: 12px 50px;
   }
 }
