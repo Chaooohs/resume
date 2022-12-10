@@ -57,7 +57,7 @@ img {
   padding: 0 30px;
 }
 .font-item {
-  font-weight: bold;
+  font-weight: medium;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
@@ -69,6 +69,12 @@ img {
   line-height: 42px;
   text-align: center;
   color: var(--black);
+}
+.font-about {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
 }
 
 /* #region Header */
@@ -170,6 +176,10 @@ input:checked + .radio__label {
 .about {
   background: var(--back-gray);
 }
+.about__content {
+  width: 485px;
+  margin: 0 auto;
+}
 .about__title {
   margin-bottom: 17px;
 }
@@ -239,6 +249,11 @@ input:checked + .radio__label {
   text-decoration: underline;
   margin-bottom: 100px;
 }
+.portfolio__link-last {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
 
 /* #endregion */
 
@@ -248,9 +263,10 @@ input:checked + .radio__label {
   background: var(--back-white);
 }
 .footer__item {
-  padding: 20px 0 30px 0;
+  margin: 20px 0 30px 0;
 }
 .footer__btn {
+  font-weight: bold;
   display: block;
   border: none;
   outline: none;

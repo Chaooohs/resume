@@ -1,12 +1,12 @@
-
 @media (max-width: 992px) {
+  /* header */
 
   .header__container {
     padding: 65px 0 83px;
   }
   hr,
   .nav,
-  .radio__form{
+  .radio__form {
     display: none;
   }
   .nav__btn {
@@ -19,5 +19,75 @@
   .header__item {
     text-align: start;
     padding: 23px 0 0 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    padding: 81px 0 76px 0;
+  }
+  .wrapper {
+    padding: 0 15px;
+  }
+
+  .header__container {
+    padding: 65px 0 83px;
+  }
+  /* about */
+
+  .about__content {
+    width: 316px;
+  }
+
+  /* skills */
+
+  .skills-item {
+    margin-top: 50px;
+  }
+  .skills__cards {
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 85px;
+  }
+
+  /* portfolio */
+
+  .portfolio__title {
+    margin-bottom: 64px;
+  }
+  .portfolio__image {
+    margin-bottom: 33px;
+  }
+  .portfolio__link {
+    margin-bottom: 77px;
+  }
+
+  /* footer */
+
+  .footer__item {
+    margin: 26px 0 40px 0;
+  }
+  .footer__icons {
+    justify-content: space-between;
+    column-gap: 15px;
+    margin-top: 86px;
+  }
+  .footer__under {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 48px;
+  }
+  .footer__btn {
+    padding: 12px 97px;
+  }
+}
+
+@media (max-width: 374px) {
+  .about__content {
+    width: 228px;
+  }
+  .footer__btn {
+    padding: 12px 50px;
   }
 }
