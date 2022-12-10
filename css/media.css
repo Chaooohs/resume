@@ -1,11 +1,12 @@
+
 @media (max-width: 992px) {
 
   .header__container {
     padding: 65px 0 83px;
   }
   hr,
-  .radio__form,
-  .header__nav {
+  .nav,
+  .radio__form{
     display: none;
   }
   .nav__btn {

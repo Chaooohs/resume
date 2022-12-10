@@ -83,7 +83,7 @@ img {
 
 /* nav */
 
-.header__nav {
+.nav {
 }
 .nav__list {
   display: flex;
@@ -98,12 +98,12 @@ img {
   color: var(--black);
 }
 
-/** burger */
+/* burger */
 
 .nav__btn {
   display: none;
   width: 33px;
-  
+
   position: fixed;
   top: 68px;
   right: 30px;
