@@ -35,7 +35,7 @@ hr {
   color: #828282;
   background: #828282;
   margin: 30px 0 40px;
-  }
+}
 h1,
 h2,
 p {
@@ -113,11 +113,52 @@ img {
 .header__item {
   padding-bottom: 9px;
 }
-.language {
-}
-
 .header__image {
   margin-top: 50px;
+}
+
+/* radio-btn */
+
+.radio__container {
+  width: 20px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.radio__form {
+  width: 72px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  transform: rotate(-90deg);
+}
+input {
+  display: none;
+}
+.radio__label {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--gray);
+
+  display: inline-block;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding-top: 2px;
+}
+input:checked + .radio__label {
+  color: var(--black);
+}
+.radio__separator {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--black);
 }
 
 /* #endregion */
