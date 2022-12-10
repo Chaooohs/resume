@@ -12,7 +12,6 @@
 }
 
 html {
-  /* font-size: 10px; */
   font-family: "Gilroy", sans-serif;
 
   --white: #fff;
@@ -44,6 +43,8 @@ p {
 img {
   width: 100%;
 }
+
+/* #region Common */
 
 .container {
   max-width: 942px;
@@ -77,6 +78,8 @@ img {
   color: #000000;
 }
 
+/* #endregion Common */
+
 /* #region Header */
 
 .header {
@@ -89,13 +92,9 @@ img {
 
 /* nav */
 
-.nav {
-}
 .nav__list {
   display: flex;
   justify-content: space-between;
-}
-.nav__item {
 }
 .nav__link {
   color: var(--gray);
@@ -195,8 +194,6 @@ input:checked + .radio__label {
 
 .skills {
   background: var(--back-white);
-}
-.skills__title {
 }
 .skills-item {
   margin-top: 70px;
