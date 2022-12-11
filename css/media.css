@@ -113,8 +113,6 @@
     margin: 26px 0 40px 0;
   }
   .footer__icons {
-    justify-content: space-between;
-    column-gap: 15px;
     margin-top: 86px;
   }
   .footer__under {
@@ -133,6 +131,7 @@
     padding: 12px 50px;
   }
   .footer__icons {
+    justify-content: space-between;
     column-gap: 10px;
   }
 }
