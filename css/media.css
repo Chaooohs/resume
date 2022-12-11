@@ -126,7 +126,7 @@
 
 @media (max-width: 375px) {
   .about__content {
-    width: 228px;
+    width: 100%;
   }
   .footer__btn {
     width: 100%;
