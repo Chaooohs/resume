@@ -18,7 +18,7 @@ html {
   --white: #fff;
   --black: #070707;
   --gray: #828282;
-  --back-white: #f6f6f6;
+  --back-white: #fff;
   --back-gray: #f6f6f6;
 }
 
@@ -30,7 +30,7 @@ html {
   box-sizing: border-box;
   padding: 120px 0 100px 0;
   margin: 0 auto;
-  border-top: 1px solid #828282;
+  /* border-top: 1px solid #828282; */
 }
 .wrapper {
   box-sizing: border-box;
